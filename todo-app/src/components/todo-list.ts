@@ -51,18 +51,18 @@ class TodoList extends HTMLElement {
           background-color: #625959;
           color: white;
           cursor: pointer;
-        }
 
-        button:hover {
+          &:hover {
           background-color: #a6a4a4;
-        }
+          }
 
+        }
         .hidden {
           display: none;
         }
       </style>
       <ul class="list-container">
-        <h1 class="list-container-heading">ToDo or NotToDo - The List</h1>
+        <h1 class="list-container-heading">ToDo or NotToDo - The List!!</h1>
         <div id="taskList"></div>
         <div class="button-container">
           <button id="deleteAllButton" class="hidden">Remove All</button>

@@ -38,8 +38,19 @@ class TodoItem extends HTMLElement {
           flex-grow: 1; 
           text-align: center; 
         }
-        .remove-button {
-          margin-left: 10px;
+        button {
+          margin-right: 10px;
+          padding: 5px 10px;
+          border: none;
+          border-radius: 4px;
+          background-color: #625959;
+          color: white;
+          cursor: pointer;
+
+          &:hover {
+          background-color: #a6a4a4;
+          }
+
         }
       </style>
       <div class="task">
